@@ -1,1 +1,1 @@
-git@github.com:annakuznetsova56/ono-tebe-nado-fd.git
+https://github.com/annakuznetsova56/ono-tebe-nado-fd
