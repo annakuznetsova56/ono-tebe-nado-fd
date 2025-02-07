@@ -1,1 +1,263 @@
-/* место для вашего кода */
+a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.menu-header {
+  display: flex;
+  list-style: circle;
+  gap: 32.8px;
+  line-height: 21px;
+}
+
+.link-active {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  font-style: normal;
+  line-height: 24.3px;
+}
+
+.header__address {
+  max-width: 240px;
+  justify-self: end;
+}
+
+.no-wrap {
+  text-wrap: nowrap;
+}
+
+.cover {
+  position: relative;
+  padding: 165px 50px 50px;
+  background-image: url("/images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  opacity: 60%;
+  color: white;
+  z-index: 1;
+}
+
+.cover__title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  z-index: 2;
+  margin-bottom: 106px;
+}
+
+.text-left {
+  align-self: start;
+}
+
+.text-center {
+  align-self: center;
+}
+
+.text-right {
+  align-self: end;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-size: 22px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.cover__description-text {
+  line-height: 28px;
+  word-spacing: 18.5px;
+  align-self: center;
+}
+
+.bet-button {
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 32px 11px 31px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.lots {
+  margin: 180px 24px 120px;
+}
+
+.lots__heading {
+  margin-left: 40px;
+  margin-bottom: 27px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 48px 40px;
+  z-index: 2;
+}
+
+.card__title {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.card__text {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.lot {
+  position: relative;
+  width: 334px;
+  min-height: 596px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.view-more {
+  font-size: 20px;
+  padding-left: 40px;
+  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 25px;
+  justify-items: center;
+  margin: 0 24px 180px;
+}
+
+.about__logo-column {
+  padding-top: 35px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo {
+  width: 148px;
+  height: 114px;
+}
+
+.about__text-column {
+  padding-top: 136px;
+  font-size: 20px;
+}
+
+.about__title {
+  font-size: 40px;
+}
+
+.about__text {
+  margin: 100px 0 24px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 18px;
+  padding: 0 50px 82px;
+}
+
+.footer__menu {
+  text-align: center;
+}
+
+.footer__menu-list {
+  list-style-type: none;
+}
+
+.footer__social-list {
+  display: flex;
+  width: 240px;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-self: end;
+  list-style-type: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+}
